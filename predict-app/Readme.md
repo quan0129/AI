@@ -1,0 +1,3 @@
+- Kết quả sau khi training dữ liệu với các model sẽ đươcj lưu vào file .pkl
+- File ui_app.py đọc file .pkl đưa các input nhập vào từ giao diện vào để dự đoán
+- Run file ui_app.py : streamlit run ui_app.py
