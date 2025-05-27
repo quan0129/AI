@@ -9,12 +9,12 @@ with open("feyn_symbolic_regression_model_23_05.pkl", "rb") as f:
 st.title("Dự đoán giá nhà")
 
 # Nhập dữ liệu
-geo_lat = st.number_input("Latitude (geo_lat)", min_value=0)
-geo_lon = st.number_input("Longitude (geo_lon)", min_value=0)
+geo_lat = st.number_input("Latitude (geo_lat)", min_value=0.00)
+geo_lon = st.number_input("Longitude (geo_lon)", min_value=0.00)
 region = st.number_input("Region")
 building_type = st.number_input("Building Type")
 level = st.number_input("Level", min_value=0)
-levels = st.number_input("Total levels", min_value=0)
+levels = st.number_input("Total levels", min_value=1)
 rooms = st.number_input("Rooms", min_value=0)
 area = st.number_input("Area (m²)", min_value=0)
 kitchen_area = st.number_input("Kitchen area (m²)", min_value=0)
